@@ -21,7 +21,7 @@ randomly without memory instead of systematically trying them?
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. Add your answer to this markdown file.
 
-The runtime complexity is going to be $$O(n*n!). This is becuase the sorted function just runs through without repeating any steps, which makes there be an n for every n!. There is the n! because if it is not sorted, it must go through every variation and check each time, until it is finally sorted. In theory this might happen for every single combination, making it n!.
+The runtime complexity is going to be $$O(n*n!)$$. This is becuase the sorted function just runs through without repeating any steps, which makes there be an n for every n!. There is the n! because if it is not sorted, it must go through every variation and check each time, until it is finally sorted. In theory this might happen for every single combination, making it n!.
 
 https://stackoverflow.com/questions/39125471/why-time-complexity-of-permutation-function-is-on
 
